@@ -1,0 +1,4 @@
+{
+	"name": "node-bundler",
+	"main": "./lib/bundler/router/RequestRouter"
+}
