@@ -9,8 +9,10 @@ available for you to in the browser. No build step.
 
 Usage ::
 
+```javascript
 var BundlerFactory = require('node-bundler');
 
 var bundler = BundlerFactory.createBundler();
 
 bundler.startBundlerServer();
+```
