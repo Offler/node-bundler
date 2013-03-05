@@ -28,7 +28,11 @@ MockCreatorHelper = (function(){
 	 */
 	classproto.createServerResponse = function()
 	{
-		return {};
+		function ServerResponse(){}
+		ServerResponse.prototype.write = function(){};
+		ServerResponse.prototype.writeHead = function(){};
+		
+		return new ServerResponse();
 	};
 	
 	return MockCreatorHelper;
