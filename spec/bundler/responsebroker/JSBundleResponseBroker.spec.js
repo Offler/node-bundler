@@ -1,5 +1,4 @@
 var JsMockito = require('jsmockito').JsMockito;
-var http = require('http');
 
 var JSBundleResponseBroker = require('../../../lib/bundler/responsebroker/JSBundleResponseBroker');
 
