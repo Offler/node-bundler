@@ -1,4 +1,4 @@
-var JSClass = require('../../../../lib/bundler/resources/js/JSClass').JSClass;
+var JSClass = require('../../../../lib/bundler/resources/js/JSClass');
 
 describe('A JSClass', function(){
 	'use strict';
