@@ -1,4 +1,13 @@
 {
 	"name": "node-bundler",
-	"main": "./lib/bundler/BundlerFactory"
+	"version": "0.0.0",
+	"main": "./lib/bundler/BundlerFactory",
+	"author": {
+		"name": "Brian Di Palma",
+		"email": "g@g.com"
+	},
+	"dependencies": { 
+		"esprima": "~1.0.3",
+		"log4js": "~0.6.6"
+	}
 }
